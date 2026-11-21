@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Please Forgive Me, Jaanu ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--r:#e11d48;--t:#6b1d3a;--card:rgba(255,255,255,.55);--bd:rgba(255,255,255,.85);--g1:#ffe9f1;--g2:#ffc6dc;--g3:#ff9ec4;--sh:rgba(225,29,72,.35);--sc:"Dancing Script","Brush Script MT",cursive;--sn:Poppins,system-ui,-apple-system,"Segoe UI",sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--r:#ff7aa8;--t:#ffe4ef;--card:rgba(255,255,255,.1);--bd:rgba(255,150,195,.35);--g1:#3b0a24;--g2:#5a0f35;--g3:#7a1647}}
+:root[data-theme="dark"]{--r:#ff7aa8;--t:#ffe4ef;--card:rgba(255,255,255,.1);--bd:rgba(255,150,195,.35);--g1:#3b0a24;--g2:#5a0f35;--g3:#7a1647}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;font-family:var(--sn);color:var(--t);background:linear-gradient(160deg,var(--g1),var(--g2),var(--g3),var(--g1));background-size:300% 300%;animation:bg 16s ease infinite;overflow-x:hidden}
+#fx{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:1}
+.fh{position:absolute;bottom:-60px;opacity:0;animation:rise linear forwards;filter:drop-shadow(0 2px 6px var(--sh))}
+.sp{position:absolute;border-radius:50%;background:#fff;box-shadow:0 0 10px 3px #fff,0 0 18px 6px rgba(255,77,141,.5);animation:tw 3s ease-in-out infinite}
+.sec{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:56px 20px;position:relative;z-index:2}
+.glass{background:var(--card);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);border:1px solid var(--bd);border-radius:30px;box-shadow:0 20px 60px var(--sh);padding:32px 24px;width:min(100%,560px);position:relative;overflow:hidden;isolation:isolate}
+.cry{font-size:clamp(3.5rem,14vw,6rem);animation:bob 2.5s ease-in-out infinite}
+h1,h2{font-family:var(--sc);color:var(--r);margin:.2em 0;line-height:1.1;text-shadow:0 0 24px var(--sh)}
+h1{font-size:clamp(2.6rem,10vw,5.5rem)}
+h2{font-size:clamp(2.1rem,7vw,3.2rem)}
+h1 .w{white-space:nowrap;display:inline-block}
+h1 .w span{display:inline-block;animation:bob 2.4s ease-in-out infinite;animation-delay:calc(var(--i)*.09s)}
+.hb{display:inline-block;animation:hb 1.2s infinite}
+p{font-size:clamp(1rem,3.6vw,1.2rem);line-height:1.8;max-width:34em;margin:.8em auto}
+.btn{font:600 clamp(.82rem,3.5vw,1rem) var(--sn);border:0;border-radius:99px;padding:15px 24px;color:#fff;background:linear-gradient(135deg,#ff6fa5,#e11d48);cursor:pointer;box-shadow:0 10px 30px var(--sh);animation:glow 2s infinite;white-space:nowrap;transition:transform .3s,filter .3s}
+.btn:hover{filter:brightness(1.1)}
+.hero .btn{margin-top:22px}
+.hint{font-size:.8rem;opacity:.7}
+.bear{width:min(62vw,210px);animation:bob 3.4s ease-in-out infinite}
+.tear{animation:tear 2s infinite}
+.big::before{content:"";position:absolute;inset:-60%;z-index:-1;background:conic-gradient(from 0deg,transparent 0 55%,rgba(255,77,141,.35),transparent);animation:spin 10s linear infinite}
+.ar{position:relative;width:min(100%,420px);height:240px;margin:14px auto 0}
+#yes{position:absolute;left:50%;top:6px;transform:translateX(-50%) scale(var(--s,1))}
+.no{position:absolute;background:linear-gradient(135deg,#9b8a93,#6b5a63);animation:none;box-shadow:0 6px 16px rgba(0,0,0,.2);transition:left .55s cubic-bezier(.2,.9,.3,1.2),top .55s cubic-bezier(.2,.9,.3,1.2)}
+#m{min-height:1.8em;font-weight:600;color:var(--r);margin:.6em auto 0}
+.sig{font-family:var(--sc);font-size:1.7rem;color:var(--r)}
+#win{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:radial-gradient(circle at 50% 25%,var(--g1),var(--g2) 60%,var(--g3));opacity:0;visibility:hidden;transition:opacity .8s,visibility .8s;overflow:hidden}
+#win.on{opacity:1;visibility:visible}
+#cfx{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.in2{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center}
+.yy{animation:pop 1.4s ease-in-out infinite}
+.cf{position:absolute;top:-24px;border-radius:2px;animation:fall linear forwards}
+#mu{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:12px;z-index:60;width:46px;height:46px;border-radius:50%;border:1px solid var(--bd);background:var(--card);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);font-size:1.3rem;cursor:pointer}
+.rv{opacity:0;transform:translateY(34px);transition:opacity 1s,transform 1s;transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+@keyframes bg{50%{background-position:100% 100%}}
+@keyframes bob{50%{transform:translateY(-10px)}}
+@keyframes hb{50%{transform:scale(1.3)}}
+@keyframes pop{50%{transform:scale(1.06)}}
+@keyframes glow{50%{box-shadow:0 0 0 10px rgba(255,77,141,.15),0 0 40px 8px var(--sh)}}
+@keyframes rise{0%{transform:translateY(0) scale(.6);opacity:0}10%{opacity:.95}100%{transform:translate(var(--x),-115vh) rotate(var(--rt)) scale(1.1);opacity:0}}
+@keyframes tw{50%{opacity:.2;transform:scale(.4)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes tear{0%{transform:translateY(0);opacity:0}25%{opacity:1}100%{transform:translateY(24px);opacity:0}}
+@keyframes fall{to{transform:translate(var(--d),110vh) rotate(720deg)}}
+</style>
+</head>
+<body>
+<div id="fx"></div>
+<button id="mu" aria-label="Music on or off">🔇</button>
+
+<section class="sec hero">
+  <div class="cry rv">🥺</div>
+  <h1 class="rv" style="--d:.2s"><span id="t">I’m Really Sorry, Jaanu!</span> <span class="hb">❤️</span></h1>
+  <p class="rv" style="--d:.5s">Jaanu, I know I made a mistake. I don’t want to lose your smile because of my silly mistakes. Please give me one chance to make everything right. 🥺</p>
+  <button class="btn rv" style="--d:.8s" onclick="document.getElementById('s2').scrollIntoView({behavior:'smooth'})">Scroll Down, My Love ↓</button>
+  <p class="hint rv" style="--d:1s">🎶 Soft music starts with your first tap</p>
+</section>
+
+<section class="sec" id="s2">
+  <div class="glass rv">
+    <svg class="bear" viewBox="0 0 220 250" role="img" aria-label="A teary teddy bear holding a sorry card">
+      <circle cx="62" cy="50" r="24" fill="#c98a5b"/><circle cx="158" cy="50" r="24" fill="#c98a5b"/><circle cx="62" cy="50" r="12" fill="#f7b6c8"/><circle cx="158" cy="50" r="12" fill="#f7b6c8"/>
+      <ellipse cx="110" cy="188" rx="60" ry="54" fill="#c98a5b"/><ellipse cx="78" cy="236" rx="22" ry="12" fill="#d9996a"/><ellipse cx="142" cy="236" rx="22" ry="12" fill="#d9996a"/>
+      <circle cx="110" cy="86" r="58" fill="#d9996a"/><ellipse cx="110" cy="106" rx="26" ry="20" fill="#f3d2b0"/><ellipse cx="110" cy="97" rx="9" ry="6" fill="#5b3a29"/>
+      <path d="M99 117q11-9 22 0" stroke="#5b3a29" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <circle cx="88" cy="78" r="7" fill="#2b1810"/><circle cx="132" cy="78" r="7" fill="#2b1810"/><circle cx="90" cy="75" r="2.4" fill="#fff"/><circle cx="134" cy="75" r="2.4" fill="#fff"/>
+      <circle cx="70" cy="100" r="9" fill="#ff9ec4" opacity=".6"/><circle cx="150" cy="100" r="9" fill="#ff9ec4" opacity=".6"/>
+      <ellipse class="tear" cx="86" cy="92" rx="3.5" ry="6" fill="#8fd3ff"/><ellipse class="tear" style="animation-delay:1s" cx="134" cy="92" rx="3.5" ry="6" fill="#8fd3ff"/>
+      <ellipse cx="50" cy="170" rx="14" ry="30" transform="rotate(25 50 170)" fill="#c98a5b"/><ellipse cx="170" cy="170" rx="14" ry="30" transform="rotate(-25 170 170)" fill="#c98a5b"/>
+      <g transform="rotate(-4 110 185)"><rect x="56" y="150" width="108" height="74" rx="9" fill="#fff" stroke="#ff4d8d" stroke-width="3"/><text x="110" y="183" text-anchor="middle" font-family="Dancing Script,cursive" font-size="30" font-weight="700" fill="#e11d48">Sorry</text><text x="110" y="208" text-anchor="middle" font-size="16">💗 Jaanu 💗</text></g>
+      <circle cx="60" cy="190" r="13" fill="#d9996a"/><circle cx="160" cy="190" r="13" fill="#d9996a"/>
+    </svg>
+    <h2>Ek baat kahun Jaanu? ❤️</h2>
+    <p>Galti meri thi, aur main dil se sorry bol raha hoon. Aap mere liye bahut special hain. Main kabhi nahi chahta ki meri wajah se aapki aankhon mein aansu aayein. Aapki khushi mere liye bahut maayne rakhti hai. ❤️</p>
+  </div>
+</section>
+
+<section class="sec" id="s3">
+  <div class="glass big rv">
+    <div style="font-size:2.6rem">💌</div>
+    <h2>Will You Forgive Me, My Jaanu? 🥺❤️</h2>
+    <p id="m">Dil se pooch raha hoon, Jaanu… 💞</p>
+    <div class="ar" id="ar">
+      <button class="btn" id="yes">YES, I FORGIVE YOU ❤️</button>
+      <button class="btn no" id="no">NO, NOT YET 😒</button>
+    </div>
+  </div>
+  <p class="sig rv">— Sirf aapka husband Sahyog ❤️</p>
+</section>
+
+<div id="win">
+  <div id="cfx"></div>
+  <div class="in2">
+    <h1 class="yy">YAYYYYY!!! 🥹❤️</h1>
+    <h2>Thank You Jaanu, mujhe maaf karne ke liye! ❤️</h2>
+    <div class="glass" style="margin:16px 0 22px"><p style="margin:0">I promise to keep that beautiful smile on your face. I love you so much, Jaanu! 🫶😘</p></div>
+    <button class="btn" id="cl">💌 Read my letter again</button>
+  </div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s),R=n=>Math.random()*n,fx=$('#fx'),E=['💖','💗','💕','❤️','🌸','💓','✨','🩷'];
+// floating hearts, sparkles
+function fl(p,b){p=p||fx;if(p===fx&&p.children.length>60)return;const e=document.createElement('span');e.className='fh';e.textContent=E[R(E.length)|0];e.style.cssText=`left:${R(100)}%;font-size:${(b?22:14)+R(b?34:22)}px;animation-duration:${(b?4:7)+R(6)}s;--x:${R(120)-60}px;--rt:${R(80)-40}deg`;e.onanimationend=()=>e.remove();p.append(e)}
+for(let i=0;i<24;i++){const s=document.createElement('i'),z=2+R(4);s.className='sp';s.style.cssText=`left:${R(100)}%;top:${R(100)}%;width:${z}px;height:${z}px;animation-delay:${R(3)}s;animation-duration:${2+R(3)}s`;fx.append(s)}
+for(let i=0;i<8;i++)setTimeout(fl,i*200);setInterval(fl,450);
+// animated title
+$('#t').innerHTML=$('#t').textContent.split(' ').map((w,i)=>`<span class="w">${[...w].map((c,j)=>`<span style="--i:${i*4+j}">${c}</span>`).join('')}</span>`).join(' ');
+// scroll reveal
+const io='IntersectionObserver'in window?new IntersectionObserver(a=>a.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.2}):null;
+document.querySelectorAll('.rv').forEach(e=>io?io.observe(e):e.classList.add('in'));
+// music (soft music-box loop, synthesized)
+let ac,tm,st=0,on=false,asked=false;const mu=$('#mu'),C=[[262,330,392,523],[196,247,392,494],[220,262,330,440],[175,220,262,349]];
+function nt(f,d,v,ty){const t=ac.currentTime,o=ac.createOscillator(),g=ac.createGain();o.type=ty||'sine';o.frequency.value=f;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.03);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(g);g.connect(ac.destination);o.start(t);o.stop(t+d)}
+function tk(){const c=C[(st>>3)%4],k=st%8;nt(c[[0,1,2,3,2,1,3,2][k]],1.6,.07,'triangle');if(!k)nt(c[0]/2,3,.12);if(k==4)nt(c[3]*2,1.2,.025);st++}
+function mus(v){try{if(v){ac=ac||new(window.AudioContext||window.webkitAudioContext)();ac.resume();tm=setInterval(tk,430)}else clearInterval(tm);on=v;mu.textContent=v?'🔊':'🔇'}catch(e){}}
+mu.onclick=()=>{asked=true;mus(!on)};
+addEventListener('pointerdown',e=>{if(!asked&&!e.target.closest('#mu')){asked=true;mus(true)}});
+// the playful NO button
+const no=$('#no'),yes=$('#yes'),ar=$('#ar'),M=['Arey Jaanu, please! 🥺','Ek baar soch lo na! ❤️','Itni bhi kya narazgi? 😭','Please maan jao na!','Ek chance toh banta hai na? 💞','Kaan pakad ke sorry, Jaanu 🥹'];let n=0,lt=0;
+function place(){const W=ar.clientWidth-no.offsetWidth;if(!n){no.style.left=W/2+'px';no.style.top='120px'}else no.style.left=Math.min(parseFloat(no.style.left),W)+'px'}
+function dodge(e){e.preventDefault();const T=Date.now();if(T-lt<400)return;lt=T;$('#m').textContent=M[n++%M.length];
+const w=no.offsetWidth,h=no.offsetHeight,W=ar.clientWidth-w,H=ar.clientHeight-h,a=ar.getBoundingClientRect(),y=yes.getBoundingClientRect();let x,t,k=0;
+do{x=R(W);t=R(H);k++}while(k<40&&x+a.left<y.right+10&&x+a.left+w>y.left-10&&t+a.top<y.bottom+10&&t+a.top+h>y.top-10);
+no.style.left=x+'px';no.style.top=t+'px';yes.style.setProperty('--s',Math.min(1+n*.04,1.2))}
+['pointerenter','touchstart','click'].forEach(v=>no.addEventListener(v,dodge,{passive:false}));
+addEventListener('resize',place);addEventListener('load',place);if(document.fonts)document.fonts.ready.then(place);place();
+// YES: celebration
+function cf(p){const c=document.createElement('i');c.className='cf';c.style.cssText=`left:${R(100)}%;width:${6+R(8)}px;height:${8+R(10)}px;background:${['#ff4d8d','#e11d48','#fff','#ffb3d1','#ff7aa8','#ffd6e7'][R(6)|0]};--d:${R(160)-80}px;animation-duration:${2.5+R(2.5)}s;animation-delay:${R(.8)}s`;c.onanimationend=()=>c.remove();p.append(c)}
+let bi;
+yes.onclick=()=>{$('#win').classList.add('on');document.documentElement.style.overflow='hidden';const c=$('#cfx'),go=()=>{for(let i=0;i<60;i++)cf(c);for(let i=0;i<8;i++)fl(c,1)};go();bi=setInterval(go,1500)};
+$('#cl').onclick=()=>{$('#win').classList.remove('on');document.documentElement.style.overflow='';clearInterval(bi)};
+</script>
+</body>
+</html>
